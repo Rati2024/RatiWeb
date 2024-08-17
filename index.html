@@ -5,16 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rati Enterprises | Build. Believe. Grow.</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header { background-color: #333; color: white; padding: 20px; text-align: center; }
-        nav { text-align: center; margin: 20px 0; }
-        nav a { margin: 0 15px; color: #333; text-decoration: none; }
-        section { padding: 40px; text-align: center; }
-        footer { background-color: #333; color: white; padding: 20px; text-align: center; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; padding: 0; 
+            background-color: #f9f4ee; 
+            color: #3e2a1f; 
+        }
+        header { 
+            position: relative; 
+            text-align: center; 
+            padding: 50px 0; 
+            background-color: #f9f4ee; 
+        }
+        header img { 
+            width: 150px; 
+            height: auto; 
+            margin-bottom: 20px; 
+            animation: fadeIn 2s ease-in-out; 
+        }
+        header h1 { 
+            color: #8c4b24; 
+            font-size: 3em; 
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.2); 
+        }
+        header p { 
+            font-size: 1.5em; 
+            color: #8c4b24; 
+            margin-top: 10px; 
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        nav { 
+            background-color: #3e2a1f; 
+            padding: 15px 0; 
+        }
+        nav a { 
+            margin: 0 15px; 
+            color: white; 
+            text-decoration: none; 
+            font-weight: bold; 
+            transition: color 0.3s; 
+        }
+        nav a:hover { 
+            color: #f9a25b; 
+        }
+
+        section { 
+            padding: 60px 10%; 
+            text-align: center; 
+            background-color: #fff; 
+        }
+        section h2 { 
+            font-size: 2.5em; 
+            margin-bottom: 20px; 
+            color: #8c4b24; 
+        }
+        section p { 
+            font-size: 1.2em; 
+            line-height: 1.6em; 
+            color: #666; 
+        }
+
+        #about { 
+            animation: slideIn 2s ease-in-out; 
+        }
+
+        #products { 
+            background-color: #f4f4f4; 
+        }
+
+        #contact { 
+            background-color: #3e2a1f; 
+            color: white; 
+            padding-bottom: 80px; 
+        }
+        #contact p { 
+            font-size: 1.2em; 
+            color: #f9a25b; 
+        }
+
+        footer { 
+            background-color: #222; 
+            color: white; 
+            text-align: center; 
+            padding: 20px 0; 
+            font-size: 0.9em; 
+        }
+
+        @media (max-width: 768px) {
+            header h1 { 
+                font-size: 2.5em; 
+            }
+            header p { 
+                font-size: 1.2em; 
+            }
+        }
     </style>
 </head>
 <body>
     <header>
+        <img src="images/preview.png" alt="Rati Enterprises Logo">
         <h1>Rati Enterprises</h1>
         <p>Build. Believe. Grow.</p>
     </header>
@@ -22,31 +116,24 @@
     <nav>
         <a href="#about">About Us</a>
         <a href="#products">Products & Services</a>
-        <a href="#gallery">Gallery</a>
         <a href="#contact">Contact Us</a>
     </nav>
 
     <section id="about">
         <h2>About Us</h2>
-        <p>With over 30 years of experience, Rati Enterprises specializes in crafting high-quality furniture from tiny toys to house furniture. We combine traditional techniques with modern technology like CNC machining to create unique designs.</p>
+        <p>Rati Enterprises, with over 30 years of experience, brings the art of furniture-making to life. From tiny toys to elegant house furniture, we create unique designs using both traditional craftsmanship and modern CNC technology.</p>
     </section>
 
     <section id="products">
         <h2>Products & Services</h2>
-        <p>Our range includes wooden sofas, chairs, TV consoles, coffee tables, cutting/chopping boards, and more. We pride ourselves on delivering exceptional quality and craftsmanship.</p>
-    </section>
-
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <p>Explore some of our finest work in the gallery below.</p>
-        <!-- Add images of products here -->
+        <p>Explore our range of products, including wooden sofas, chairs, TV consoles, coffee tables, cutting boards, and bespoke CNC design art.</p>
     </section>
 
     <section id="contact">
         <h2>Contact Us</h2>
         <p>Address: Devinagar, V.K.I Bhdarana Jaipur, Rajasthan</p>
         <p>Phone: +91 9166165208</p>
-        <p>Email: info@ratienterprises.com</p>
+        <p>Email: ratienterprise2024@gmail.com</p>
     </section>
 
     <footer>
